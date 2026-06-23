@@ -53,7 +53,7 @@ int main()
     std::vector<unsigned long long int> max_num = maxnum_vec(10);
 
 #ifdef debug
-    for (lli& f : max_num) std::cout << f << std::endl;
+    for ((unsigned long long int)& f : max_num) std::cout << f << std::endl;
 #endif
 
 #ifdef eval
